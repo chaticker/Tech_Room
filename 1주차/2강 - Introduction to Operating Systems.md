@@ -43,3 +43,4 @@ UNIX | DOS  | MS Windows
 
 --운영체제의 구조
 
+![os구조](https://user-images.githubusercontent.com/23302973/97547489-36239580-1a11-11eb-86c6-65a7d4eb5935.jpg)
