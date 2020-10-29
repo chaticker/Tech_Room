@@ -16,5 +16,9 @@
 ---- | ---- | 
 한 번에 하나의작업만 처리(ex.MS-DOS)  | 동시에 두 개 이상의 작업 처리(ex.UNIX, MS Windows)
 
-                     
+* 사용자의 수
+
+단일 사용자 | 다중 사용자
+---- | ---- | 
+MS-DOS, MS Windows | UNIX, NT server
                      
