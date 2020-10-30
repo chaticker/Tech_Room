@@ -48,3 +48,4 @@
   - 커널 함수 호출 = 시스템 콜
   
 ----프로그램의 실행
+![캡처6](https://user-images.githubusercontent.com/23302973/97696829-78b8a100-1ae9-11eb-9124-7f6449b7f521.PNG)
