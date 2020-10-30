@@ -29,12 +29,15 @@
 * 바이트 단위가 아니라 block 단위로 인터럽트를 발생시킴
 
 ----저장장치 계층 구조
+
 ![캡처3](https://user-images.githubusercontent.com/23302973/97695841-03000580-1ae8-11eb-8c13-a39eacb54918.PNG)
 
 ----프로그램의 실행(메모리 로드)
+
 ![캡처4](https://user-images.githubusercontent.com/23302973/97696406-e3b5a800-1ae8-11eb-86e7-0d17abac56ef.PNG)
 
 ----커널 주소 공간의 내용
+
 ![캡처5](https://user-images.githubusercontent.com/23302973/97696554-165fa080-1ae9-11eb-8b14-5b523e538698.PNG)
 
 ----사용자 프로그램이 사용하는 함수
@@ -48,4 +51,5 @@
   - 커널 함수 호출 = 시스템 콜
   
 ----프로그램의 실행
+
 ![캡처6](https://user-images.githubusercontent.com/23302973/97696829-78b8a100-1ae9-11eb-9124-7f6449b7f521.PNG)
