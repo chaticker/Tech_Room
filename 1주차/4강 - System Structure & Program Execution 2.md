@@ -31,3 +31,5 @@
 ----저장장치 계층 구조
 ![캡처3](https://user-images.githubusercontent.com/23302973/97695841-03000580-1ae8-11eb-8c13-a39eacb54918.PNG)
 
+----프로그램의 실행(메모리 로드)
+
