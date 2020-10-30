@@ -29,3 +29,5 @@
 * 바이트 단위가 아니라 block 단위로 인터럽트를 발생시킴
 
 ----저장장치 계층 구조
+![캡처3](https://user-images.githubusercontent.com/23302973/97695841-03000580-1ae8-11eb-8c13-a39eacb54918.PNG)
+
