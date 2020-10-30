@@ -1,3 +1,5 @@
+![캡처](https://user-images.githubusercontent.com/23302973/97690915-00e67880-1ae1-11eb-9dea-21060fa84f0f.PNG)
+
 ----timer
 * 정해진 시간이 흐른 뒤 운영체제에게 제어권이 넘어가도록 인터럽트를 발생시킴
 * 타이머는 매 클럭 때마다 1씩 감소
