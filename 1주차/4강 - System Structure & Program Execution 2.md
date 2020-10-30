@@ -9,3 +9,5 @@
   ->보안을 해칠 수 있는 중요한 명령어는 모니터 모드에서만 수행 가능한 특권명령으로 규정
   ->interrupt나 exception 발생시 하드웨어가 mode bit을 0으로 바꿈
   ->사용자 프로그램에게 CPU를 넘기기 전에 mode bit을 1로 셋팅
+
+![캡처2](https://user-images.githubusercontent.com/23302973/97694282-aac80400-1ae5-11eb-8611-d274dc7703c3.PNG)
