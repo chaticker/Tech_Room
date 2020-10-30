@@ -32,4 +32,7 @@
 ![캡처3](https://user-images.githubusercontent.com/23302973/97695841-03000580-1ae8-11eb-8c13-a39eacb54918.PNG)
 
 ----프로그램의 실행(메모리 로드)
+![캡처4](https://user-images.githubusercontent.com/23302973/97696406-e3b5a800-1ae8-11eb-86e7-0d17abac56ef.PNG)
+
+----커널 주소 공간의 내용
 
