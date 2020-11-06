@@ -38,3 +38,6 @@
      - Code, Data, Stack 위치 정보
   4. 파일 관련
      - 오픈 파일 디스크립션
+     
+ ![캡처](https://user-images.githubusercontent.com/23302973/98349660-a360a780-205d-11eb-835e-3e2737f7545a.PNG)
+
