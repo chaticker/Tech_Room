@@ -61,3 +61,5 @@
 * 프로세스들은 각 큐들을 오가며 수행
 
 * 프로세스 스케줄링 큐의 모습
+![KakaoTalk_20201106_192308753](https://user-images.githubusercontent.com/23302973/98355526-95af2000-2065-11eb-99bb-ac480d090eea.jpg)
+
