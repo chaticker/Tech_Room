@@ -51,3 +51,13 @@
 
 ![KakaoTalk_20201106_184421907](https://user-images.githubusercontent.com/23302973/98351535-2c78de00-2060-11eb-8066-f43a6a28d22a.jpg)
 
+## 프로세스를 스케줄링 하기 위한 큐
+* Job queue
+  * 현재 시스템 내에 있는 모든 프로세스의 집합(Ready queue, Device queue 모두를 포함)
+* Ready queue
+  * 현재 메모리 내에 있으면서 CPU를 잡아서 실행되기를 기다리는 프로세스의 집합
+* Device queue
+  * I/O device의 처리를 기다리는 프로세스의 집합
+* 프로세스들은 각 큐들을 오가며 수행
+
+* 프로세스 스케줄링 큐의 모습
