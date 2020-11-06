@@ -10,7 +10,7 @@
   - data 부분
   - OS 자원
 
-
+![KakaoTalk_20201106_232920061](https://user-images.githubusercontent.com/23302973/98377285-f7808180-2087-11eb-8ab3-2b3760bb6b89.jpg)
 
 * 장점
   - 스레드가 blocked(waiting) 상태인 동안에도 동일한 태스크 내의 다른 스레드가 실행되어 빠른 처리 가능
