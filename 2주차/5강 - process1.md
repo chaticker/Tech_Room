@@ -33,8 +33,10 @@
     - 예) 사용자가 프로그램을 일시 정지시킨 경우(break key) / 시스템이 여러 이유로 프로그램을 잠시 중단시킴(메모리에 너무 많은 프로세스가 올라와 있을 경우)
     
   **Blocked 와 Suspended의 차이(문제 내기)**
-  Blocked: 자신이 요청한 이벤트가 만족되면 ready로 돌아갈 수 있음
-  Suspended: 외부에서 정지시킨 상태이므로, 외부에서 다시 재개 시켜줘야 active할 수 있음
+  
+  * Blocked: 자신이 요청한 이벤트가 만족되면 ready로 돌아갈 수 있음
+  
+  * Suspended: 외부에서 정지시킨 상태이므로, 외부에서 다시 재개 시켜줘야 active할 수 있음
   
     
 ![KakaoTalk_20201106_181005731](https://user-images.githubusercontent.com/23302973/98347879-5da2df80-205b-11eb-89e6-34c2949a78ef.jpg)
