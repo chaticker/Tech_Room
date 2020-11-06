@@ -24,4 +24,6 @@
     
 ![KakaoTalk_20201106_181005731](https://user-images.githubusercontent.com/23302973/98347879-5da2df80-205b-11eb-89e6-34c2949a78ef.jpg)
 
+![KakaoTalk_20201106_182156881](https://user-images.githubusercontent.com/23302973/98349201-0c93eb00-205d-11eb-99c0-dc64c6dd2c01.jpg)
+
 ## 
