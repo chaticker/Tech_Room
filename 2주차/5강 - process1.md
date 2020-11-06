@@ -49,4 +49,5 @@
  
 ![KakaoTalk_20201106_183539539](https://user-images.githubusercontent.com/23302973/98350640-f71fc080-205e-11eb-9962-190bfd3bd265.jpg)
 
-   
+![KakaoTalk_20201106_184421907](https://user-images.githubusercontent.com/23302973/98351535-2c78de00-2060-11eb-8066-f43a6a28d22a.jpg)
+
