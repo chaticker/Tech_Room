@@ -8,3 +8,9 @@
 
 ### exec() 시스템 콜
 
+![KakaoTalk_20201107_113312411](https://user-images.githubusercontent.com/23302973/98429936-15cc9880-20ed-11eb-8aad-eb570cd0ac5a.jpg)
+
+### wait() 시스템 콜
+
+ 
+
