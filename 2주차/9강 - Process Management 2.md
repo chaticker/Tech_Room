@@ -54,6 +54,31 @@
 
 ![KakaoTalk_20201107_115316225](https://user-images.githubusercontent.com/23302973/98430334-e2d7d400-20ef-11eb-97f9-8b0eee4bd685.jpg)
 
+![KakaoTalk_20201107_115749216](https://user-images.githubusercontent.com/23302973/98430448-904ae780-20f0-11eb-8fab-775085717bfd.jpg)
 
 ##CPU 스케줄링
 
+* CPU-burst Time의 분포
+  - I/O-bound process
+    * CPU를 잡고 계산하는 시간보다 I/O에 많은 시간이 필요한 job
+    * many short CPU bursts
+    
+  - CPU-bound process
+    * 계산 위주의 job
+    * few very long CPU bursts
+
+* CPU Scheduler & Dispatcher
+  - CPU Scheduler -> CPU를 누구한테 줄지 결정
+    * ready 상태의 프로세스 중에서 이번에 CPU를 줄 프로세스를 고름
+    
+  - Dispatcher -> 실제로 CPU를 주는 과정
+    * CPU의 제어권을 CPU scheduler에 의해 선택된 프로세스에게 넘김
+    * 이 과정을 문맥교환이라 함
+    
+  - CPU 스케줄링이 필요한 경우는 프로세스에게 다음과 같은 상태 변화가 있는 경우(자진 반납인 경우)
+    * running -> blocked (예: I/O 요청하는 시스템 콜)
+    * running -> ready (예: 할당시간 만료로 타이머 인터럽트)
+    * blocked -> ready (예: I/O 완료 후 인터럽트)
+    * terminate
+    
+    **이 외 모든 스케줄링은 강제로 뺏는 경우임**
