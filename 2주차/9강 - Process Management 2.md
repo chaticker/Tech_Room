@@ -52,3 +52,8 @@
 
 ### Message Passing
 
+![KakaoTalk_20201107_115316225](https://user-images.githubusercontent.com/23302973/98430334-e2d7d400-20ef-11eb-97f9-8b0eee4bd685.jpg)
+
+
+##CPU 스케줄링
+
