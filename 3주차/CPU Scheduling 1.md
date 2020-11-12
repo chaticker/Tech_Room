@@ -18,8 +18,11 @@
   - 방식
     * 비선점형: 일단 cpu를 잡으면 이번 cpu burst가 완료될 때까지 cpu를 선점 당하지 않음 
     * 선점형: 현재 수행중인 프로세스의 남은 burst time보다 더 짧은 cpu burst time을 가지는 새로운 프로세스가 도착하면 cpu를 빼앗김
+  - 선점형 방식은 주어진 프로세스에 대해 짧은 평균 대기 시간을 보장
   
 * SRTF(Shortest-Remaining-Time-First)
+  - 
+  
 * Priority Scheduling
 * RR(Round Robin)
 * Multilevel Queue
