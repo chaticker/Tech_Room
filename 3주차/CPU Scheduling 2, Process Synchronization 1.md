@@ -100,5 +100,5 @@
     ![KakaoTalk_20201112_235813463](https://user-images.githubusercontent.com/23302973/98956083-f72e2d80-2542-11eb-966a-fe583219f4c3.jpg)
     
 * Process Synchronization 문제
-
+![asdf](https://user-images.githubusercontent.com/23302973/98956255-26dd3580-2543-11eb-9c9b-08b6ec46d1f3.PNG)
     
