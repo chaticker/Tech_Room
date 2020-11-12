@@ -31,12 +31,15 @@
   ![KakaoTalk_20201112_225212793](https://user-images.githubusercontent.com/23302973/98948431-c4336c00-2539-11eb-8dc8-cb3465a65f93.jpg)
   - 프로세스를 어느 줄에 넣을 것인가?
   - 우선순위가 높은 것에만 cpu를 주는가?
+  
   * ready queue를 여러 개로 분할
     - foreground(interactive)
     - background(batch- no human interaction)
+    
   * 각 큐는 독립적인 스케줄링 알고리즘을 가짐
     - foreground: RR
     - background: FCFS
+    
   * 큐에 대한 스케줄링이 필요
     - Fixed priority scheduling
     - time slice
@@ -46,3 +49,32 @@
   - 처음 들어오는 프로세스는 우선순위가 가장 높은 큐에 넣음 
   ![KakaoTalk_20201112_230356103](https://user-images.githubusercontent.com/23302973/98949709-67d14c00-253b-11eb-8015-00c0e3665f0e.jpg)
 
+
+## Multiple-processor Scheduling(별로 안 중요함)
+* CPU가 여러 개 있는 상태에서의 스케줄링
+
+  - Load sharing이 잘 되어야 함
+    * 일부 프로세서에 job이 몰리지 않도록 부하를 적절히 공유하는 메커니즘이 필요 
+    * 별개의 큐를 두는 방법 vs 공동 큐를 사용하는 방법
+    
+  - Symmetric Multiprocessing(SMP)
+    * 각 프로세서가 각자 알아서 스케줄링 결정 (모두가 대등함)
+    
+  - Asymmetric Multiprocessing
+    * 하나의 프로세서가 시스템 데이터의 접근과 공유를 책임지고, 나머지 프로세서는 거기에 따르는 방식
+    
+## Real-Time Scheduling(**정해진 시간** 안에 반드시 실행이 되어야 함)
+* Hard real-time systems
+  - Hard real-time task는 정해진 시간 안에 **반드시** 끝내도록 스케줄링 해야 함
+  
+* Soft real-time computing
+  - Soft real-time task는 일반 프로세스에 비해 높은 우선순위를 갖도록 해야 함
+  
+## Thread Scheduling
+* Local Scheduling
+  - User level thread(운영체제가 스레드의 존재를 모르는 경우)의 경우 사용자 수준의 thread library에 의해 어떤 스레드를 스케줄링할지 결정
+  
+* Global Scheduling
+  - Kernel level thread(운영체제가 스레드의 존재를 아는 경우)의 경우 일반 프로세스와 마찬가지로 커널의 단기 스케줄러가 어떤 스레드를 스케줄링 할지 결정
+  
+## 어떤 알고리즘이 좋은지 평가하는 방법
