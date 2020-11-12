@@ -44,3 +44,5 @@
 
 * Multilevel Feedback Queue(Multilevel Queue 보완)
   - 처음 들어오는 프로세스는 우선순위가 가장 높은 큐에 넣음 
+  ![KakaoTalk_20201112_230356103](https://user-images.githubusercontent.com/23302973/98949709-67d14c00-253b-11eb-8015-00c0e3665f0e.jpg)
+
