@@ -101,4 +101,5 @@
     
 * Process Synchronization 문제
 ![asdf](https://user-images.githubusercontent.com/23302973/98956255-26dd3580-2543-11eb-9c9b-08b6ec46d1f3.PNG)
-    
+
+* The Critical-Section 문제
