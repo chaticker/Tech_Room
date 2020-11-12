@@ -94,5 +94,7 @@
     ![KakaoTalk_20201112_234629831](https://user-images.githubusercontent.com/23302973/98954671-5f7c0f80-2541-11eb-9d84-00b1f0c18483.jpg)
 
     * 프로세스가 시스템 콜을 하여 커널 모드로 수행 중인데, 문맥교환이 일어나는 경우
+    ![KakaoTalk_20201112_235329704](https://user-images.githubusercontent.com/23302973/98955541-5b042680-2542-11eb-871e-c6dc6b0917ef.jpg)
     
     * 멀티프로세서에서 공유 메모리 내의 커널 데이터
+    
