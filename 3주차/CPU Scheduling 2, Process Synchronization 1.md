@@ -87,4 +87,10 @@
   ![KakaoTalk_20201112_232856879](https://user-images.githubusercontent.com/23302973/98953396-fcd64400-253f-11eb-985c-84319d3bb408.png)
 
 * Race Condition(경쟁 상태)
-  
+  ![KakaoTalk_20201112_233807894](https://user-images.githubusercontent.com/23302973/98953566-2c854c00-2540-11eb-992b-f9c12c371737.jpg)
+
+  - os에서 race condition은 언제 발생?
+    * 커널 수행 중 인터럽트 발생 시
+    
+    * 프로세스가 시스템 콜을 하여 커널 모드로 수행 중인데, 문맥교환이 일어나는 경우
+    * 멀티프로세서에서 공유 메모리 내의 커널 데이터
