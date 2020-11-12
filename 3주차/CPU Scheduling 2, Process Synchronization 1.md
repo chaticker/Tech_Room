@@ -84,4 +84,7 @@
 
 # Process Synchronization
 * 데이터의 접근
-  - 
+  ![KakaoTalk_20201112_232856879](https://user-images.githubusercontent.com/23302973/98953396-fcd64400-253f-11eb-985c-84319d3bb408.png)
+
+* Race Condition(경쟁 상태)
+  
