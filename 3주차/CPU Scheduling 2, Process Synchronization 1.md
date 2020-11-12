@@ -97,4 +97,8 @@
     ![KakaoTalk_20201112_235329704](https://user-images.githubusercontent.com/23302973/98955541-5b042680-2542-11eb-871e-c6dc6b0917ef.jpg)
     
     * 멀티프로세서에서 공유 메모리 내의 커널 데이터
+    ![KakaoTalk_20201112_235813463](https://user-images.githubusercontent.com/23302973/98956083-f72e2d80-2542-11eb-966a-fe583219f4c3.jpg)
+    
+* Process Synchronization 문제
+
     
