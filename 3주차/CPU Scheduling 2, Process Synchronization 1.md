@@ -28,5 +28,19 @@
   - 장점: 응답시간이 빨라짐, 대기 시간이 본인이 사용하는 cpu burst 시간과 비례함 / 짧은 프로세스와 긴 프로세스가 섞여있는 경우, SJF보다 효율적임
   
 * Multilevel Queue
-  - 
-* Multilevel Feedback Queue
+  ![KakaoTalk_20201112_225212793](https://user-images.githubusercontent.com/23302973/98948431-c4336c00-2539-11eb-8dc8-cb3465a65f93.jpg)
+  - 프로세스를 어느 줄에 넣을 것인가?
+  - 우선순위가 높은 것에만 cpu를 주는가?
+  * ready queue를 여러 개로 분할
+    - foreground(interactive)
+    - background(batch- no human interaction)
+  * 각 큐는 독립적인 스케줄링 알고리즘을 가짐
+    - foreground: RR
+    - background: FCFS
+  * 큐에 대한 스케줄링이 필요
+    - Fixed priority scheduling
+    - time slice
+      * 전체의 80%는 우선순위가 높은 줄에 주고, 나머지 20%는 낮은 줄에 주는 것
+
+* Multilevel Feedback Queue(Multilevel Queue 보완)
+  - 처음 들어오는 프로세스는 우선순위가 가장 높은 큐에 넣음 
