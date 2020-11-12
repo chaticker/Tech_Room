@@ -35,7 +35,7 @@
 * RR(Round Robin)
   - 현대에서 쓰는 스케줄링은 RR에 기반
   - 각 프로세스는 동일한 크기의 할당 시간을 가짐 -> 할당 시간이 지나면 프로세스는 선점 당하고 ready queue의 제일 뒤에 가서 다시 줄을 선다
-  - 장점: 응답시간이 빨라짐, 대기 시간이 본인이 사용하는 cpu burst 시간과 비례함
+  - 장점: 응답시간이 빨라짐, 대기 시간이 본인이 사용하는 cpu burst 시간과 비례함 / 짧은 프로세스와 긴 프로세스가 섞여있는 경우, SJF보다 효율적임
   
 * Multilevel Queue
 * Multilevel Feedback Queue
