@@ -9,4 +9,7 @@
   - 프로세스가 critical section에 들어가려고 요청한 후부터 그 요청이 허용될 때까지 다른 프로세스들이 critical section에 들어가는 횟수에 한계가 있어야 함
   
 ## Algorithm 1
-* 
+![KakaoTalk_20201113_172809931](https://user-images.githubusercontent.com/23302973/99046117-a4ea1c80-25d5-11eb-8e3f-191f65d2fef1.jpg)
+
+## Algorithm 2
+
