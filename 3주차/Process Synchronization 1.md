@@ -15,4 +15,6 @@
 ![KakaoTalk_20201113_173933317](https://user-images.githubusercontent.com/23302973/99047213-3a39e080-25d7-11eb-91b6-83d8f750156e.jpg)
 
 ## Algorithm 3
+![KakaoTalk_20201113_175219862](https://user-images.githubusercontent.com/23302973/99048533-065fba80-25d9-11eb-9851-50f321bf9bdc.jpg)
 
+-> 하드웨어적으로 Test&modifyfmf atomic하게 수행할 수 있도록 지원하는 경우 알고리즘들의 문제는 해결 가능
