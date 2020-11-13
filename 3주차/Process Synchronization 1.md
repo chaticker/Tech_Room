@@ -12,4 +12,7 @@
 ![KakaoTalk_20201113_172809931](https://user-images.githubusercontent.com/23302973/99046117-a4ea1c80-25d5-11eb-8e3f-191f65d2fef1.jpg)
 
 ## Algorithm 2
+![KakaoTalk_20201113_173933317](https://user-images.githubusercontent.com/23302973/99047213-3a39e080-25d7-11eb-91b6-83d8f750156e.jpg)
+
+## Algorithm 3
 
