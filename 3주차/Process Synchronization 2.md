@@ -20,4 +20,5 @@
 ![캡ljljl](https://user-images.githubusercontent.com/23302973/99139302-c81ad780-267a-11eb-9251-8f5c83f75221.PNG)
 
 ## Deadlock and Starvation
-   
+![KakaoTalk_20201114_132132255](https://user-images.githubusercontent.com/23302973/99139477-5ba0d800-267c-11eb-8573-c2af180a9793.jpg)
+
