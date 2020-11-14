@@ -22,3 +22,4 @@
 ## Deadlock and Starvation
 ![KakaoTalk_20201114_132132255](https://user-images.githubusercontent.com/23302973/99139477-5ba0d800-267c-11eb-8573-c2af180a9793.jpg)
 
+![KakaoTalk_20201114_132431893](https://user-images.githubusercontent.com/23302973/99139523-ceaa4e80-267c-11eb-8634-bf8d2914a162.jpg)
