@@ -6,3 +6,5 @@
 ##Block / Wakeup 방식
 ![KakaoTalk_20201114_130328666](https://user-images.githubusercontent.com/23302973/99139166-dae0dc80-2679-11eb-8aa9-26793fc1277b.jpg)
 
+![KakaoTalk_20201114_130913669](https://user-images.githubusercontent.com/23302973/99139294-a6b9eb80-267a-11eb-9df4-55dbf6f2e695.jpg)
+
