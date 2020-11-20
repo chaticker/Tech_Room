@@ -9,3 +9,11 @@
 
 ![캡처dfdfd](https://user-images.githubusercontent.com/23302973/99820381-0ab94400-2b94-11eb-8706-12b7d35a7937.PNG)
 
+![캡dfasd처](https://user-images.githubusercontent.com/23302973/99820560-4bb15880-2b94-11eb-9ee5-8420e25dc876.PNG)
+-> lock 걸고 푸는 부분이 다 빠짐(세마포어 코드와 비교했을 때)
+-> 그냥 잠들어 있는 프로세스를 깨우라는 코드로 존재
+
+
+
+
+
