@@ -14,9 +14,13 @@
 
 ![KakaoTalk_20201114_132431893](https://user-images.githubusercontent.com/23302973/99813567-2e2bc100-2b8b-11eb-9ae0-4f12aa10d116.jpg)
 
+![캡처adsf](https://user-images.githubusercontent.com/23302973/99817092-d3e12f00-2b8f-11eb-9ed5-f9336842155d.PNG)
 
+![KakaoTalk_20201121_001134636](https://user-images.githubusercontent.com/23302973/99817111-d80d4c80-2b8f-11eb-9913-5bb2de8294a1.jpg)
 
 ## Monitor
 
-![KakaoTalk_20201114_132431893](https://user-images.githubusercontent.com/23302973/99816532-25d58500-2b8f-11eb-9422-58d026d68106.jpg)
+![캡처fggh](https://user-images.githubusercontent.com/23302973/99817113-d9d71000-2b8f-11eb-9688-a6cb2b211d46.PNG)
+
+
 
