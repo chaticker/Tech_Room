@@ -10,3 +10,5 @@
 
 ![KakaoTalk_20201120_234403769](https://user-images.githubusercontent.com/23302973/99812864-50710f00-2b8a-11eb-897d-662e84609b5c.jpg)
 
+## Dining-Philosophers Problem
+
