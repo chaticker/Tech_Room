@@ -39,3 +39,8 @@
 * user program
   - 논리 주소만을 다룸
   - 실제 물리 주소를 볼 수 없으며, 알 필요 없음
+  
+![KakaoTalk_20201202_214625652](https://user-images.githubusercontent.com/23302973/100874411-e04a7d80-34e7-11eb-8bee-609ff16efd41.jpg)
+
+
+
