@@ -28,4 +28,14 @@
   - CPU가 주소를 참조할 때마다 바인딩을 점검
   - **하드웨어적인 지원 필요**
   
+![KakaoTalk_20201202_213530923](https://user-images.githubusercontent.com/23302973/100873258-5a7a0280-34e6-11eb-8db8-35865a3d9620.jpg)
 
+## MMU(Memory-Management Unit)
+
+* 논리 주소를 물리 주소로 매핑해주는 **하드웨어** 디바이스
+
+* 사용자 프로세스가 CPU에서 수행되며 생성해내는 모든 주소 값에 대해 base register(relocation register) 의 값을 더함
+
+* user program
+  - 논리 주소만을 다룸
+  - 실제 물리 주소를 볼 수 없으며, 알 필요 없음
