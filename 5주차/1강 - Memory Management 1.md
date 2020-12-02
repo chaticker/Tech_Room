@@ -125,4 +125,26 @@
   
 ![KakaoTalk_20201203_002257719](https://user-images.githubusercontent.com/23302973/100892504-bef48c00-34fd-11eb-9cd9-7f4e7be7d199.jpg)
 
+![asdfasdfasdgas](https://user-images.githubusercontent.com/23302973/100892682-f105ee00-34fd-11eb-9178-97f4a56373a8.PNG)
 
+* Dynamic Storage-Allocation Problem: 가변 분할 방식에서 size n인 요청을 만족하는 가장 적절한 hole을 찾는 문제
+  - first-fit
+    * size가 n 이상인 것 중 최초로 찾아지는 hole에 할당
+  - best-fit 
+    * size가 n 이상인 가장 작은 hole을 찾아서 할당
+    * hole들의 리스트가 크기순으로 정렬되지 않은 경우 모든 hole 리스트를 탐색 해야함
+    * 많은 수의 아주 작은 hole들이 생성됨
+  - worst-fit
+    * 가장 큰 hole에 할당
+    * 역시 모든 리스트를 탐색해야 함
+    * 상대적으로 아주 큰 hole들이 생성
+    
+  - compaction
+    * 외부 조각 문제를 해결하는 한 가지 방법 -> 한 군데에 몰아 넣기
+    * 사용 중인 메모리 영역을 한 군데로 몰고 hole들을 다른 한 곳으로 몰아 큰 block을 만드는 것
+    * 매우 큰 비용이 드는 방법(전체 프로그램의 바인딩과 관련되어 있기 때문에)
+    * 최소한의 메모리 이동으로 compaction하는 방법
+    * 프로세스의 주소가 실행 시간에 동적으로 재배치 가능한 경우에만 수행될 수 있음
+    
+### noncontiguous allocation(불연속 할당)
+-> 다음 시간에 ~
