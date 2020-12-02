@@ -122,3 +122,7 @@
   - 분할의 크기, 개수가 동적으로 변함
   - 기술적 관리 기법 필요
   - external fragmentation 발생
+  
+![KakaoTalk_20201203_002257719](https://user-images.githubusercontent.com/23302973/100892504-bef48c00-34fd-11eb-9cd9-7f4e7be7d199.jpg)
+
+
