@@ -33,7 +33,7 @@
   - 그렇지 않은 경우 메인 메모리에 있는 페이지 테이블로부터 프레임 얻음
   - TLB는 문맥 교환 때 오래된 엔트리를 삭제함(flush) - 프로세스마다 다르기 때문에
   
-* two-level page table(시간x /공간이 줄어드는 게 목표)
+* two-level page table(시간은 더 걸리지만, 공간이 줄어듦)
   - 현대의 컴퓨터는 주소 공간이 매우 큰 프로그램 지원
     * 32bit 주소 사용시 : 2^32(4G)의 주소 공간
       - 페이지 크기가 4K시 1M개의 페이지 테이블 엔트리 필요
@@ -45,4 +45,6 @@
 
 ![KakaoTalk_20201204_002240859](https://user-images.githubusercontent.com/23302973/101049978-5d005900-35c7-11eb-802b-68ec4d62dd19.jpg)
 ![KakaoTalk_20201204_002241150](https://user-images.githubusercontent.com/23302973/101049981-5e318600-35c7-11eb-8229-a2a3a1797b4a.jpg)
+
+![캡adsagcvcv처](https://user-images.githubusercontent.com/23302973/101050207-90db7e80-35c7-11eb-9c5d-64badb585f95.PNG)
 
