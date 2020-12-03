@@ -14,3 +14,11 @@
 
 ![KakaoTalk_20201203_231348118](https://user-images.githubusercontent.com/23302973/101032556-435a1400-35bd-11eb-9d11-b3614cd9a033.jpg)
 
+![KakaoTalk_20201203_231905864](https://user-images.githubusercontent.com/23302973/101035106-017d9d80-35be-11eb-985f-ddadde07aa5b.jpg)
+
+* 페이지 테이블은 메인 메모리에 상주
+* page-table base register(PTBR)가 페이지 테이블을 가리킴
+* page-table length register(PTLR)가 테이블 크기 보관
+* 모든 메모리 접근 연산에는 **2번의 메모리 접근**이 필요
+  - 페이지 테이블 접근 1번(주소 변환을 위함), 실제 데이터/연산 접근 1번(메모리 접근을 위함) -> 시간이 오래 걸림
+* 위의 시간 문제에서 속도 향상을 위해 associative register 혹은 translation look-aside buffer(TLB)라 불리는 고속의 lookup 하드웨어 캐시 사용
