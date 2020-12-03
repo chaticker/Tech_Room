@@ -43,3 +43,6 @@
       - 따라서, 페이지 테이블 자체를 **페이지**로 구성
       - 사용되지 않는 주소 공간에 대한 outer 페이지 테이블의 엔트리 값은 NULL(대응하는 inner 페이지 테이블이 없음)
 
+![KakaoTalk_20201204_002240859](https://user-images.githubusercontent.com/23302973/101049978-5d005900-35c7-11eb-802b-68ec4d62dd19.jpg)
+![KakaoTalk_20201204_002241150](https://user-images.githubusercontent.com/23302973/101049981-5e318600-35c7-11eb-8229-a2a3a1797b4a.jpg)
+
