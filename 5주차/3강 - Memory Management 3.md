@@ -25,3 +25,17 @@
   - 각 페이지 테이블 엔트리는 각각의 물리적 메모리의 페이지 프레임이 담고 있는 내용 표시(프로세스 아이디, 프로세스의 논리 주소)
   - 단점: 테이블 전체를 탐색해야함
   - 조치: associative register사용(비쌈)
+
+![KakaoTalk_20201204_224301217](https://user-images.githubusercontent.com/23302973/101170672-20ddfe80-3682-11eb-8cf0-bf74903ca180.jpg)
+
+
+## Shared Page
+* shared code
+  - Re-entrant Code(Pure code)
+  - read-only로 하여 프로세스 간의 하나의 코드만 메모리에 올림
+  - shared code는 모든 프로세스의 논리 주소 공간에서 동일한 위치에 있어야 함
+  
+* private code and data
+  - 각 프로세스들은 독자적으로 메모리에 올림
+  - private data는 논리 주소 공간의 아무 곳에 와도 무방
+  
