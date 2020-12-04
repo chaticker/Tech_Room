@@ -60,3 +60,4 @@
 * 페이지 기법과의 차이: 페이지는 프로그램을 구성하는 주소 공간을 같은 단위의 페이지로 나눈 것. 세그먼테이션 기법은 의미 단위로 쪼갠 것
 ![asdfasdfasdfasd](https://user-images.githubusercontent.com/23302973/101172511-9ba81900-3684-11eb-9f60-dee7877f0c89.PNG)
 
+![KakaoTalk_20201204_231425968](https://user-images.githubusercontent.com/23302973/101173892-8207d100-3686-11eb-805d-a6b5734df3d6.jpg)
