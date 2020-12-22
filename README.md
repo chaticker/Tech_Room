@@ -1,5 +1,6 @@
 ## OS
 * time_table
+
 |주차|강의 내용|스터디 날짜|
 |------|---|---|
 |[1주차](https://github.com/chaticker/Tech_Room/tree/main/OS/1%EC%A3%BC%EC%B0%A8)|소개, 2, 3, 4|2020/10/31|
