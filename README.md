@@ -30,3 +30,4 @@
   * [Java]()
   * [HTML, CSS]()
   * [Javascript]()
+  * [SQL]()
