@@ -20,12 +20,12 @@
 
 
 
-## :floppy_disk: Network
+## :mailbox_closed: Network
 
 
 
 
-## :floppy_disk: Language
+## :key: Language
   * [Python]()
   * [Java]()
   * [HTML, CSS]()
