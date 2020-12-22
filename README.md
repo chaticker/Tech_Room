@@ -33,6 +33,6 @@
 ## :key: Language
   * [Python](https://github.com/chaticker/Tech_Room/blob/main/Language/Python.md)
   * [Java](https://github.com/chaticker/Tech_Room/tree/main/Language/Java)
-  * [HTML, CSS](https://github.com/chaticker/Tech_Room/blob/main/Language/HTML%2CCSS.md)    :round_pushpin:**[프로젝트 구경](https://github.com/chaticker/Web_Portfolio)**:eyes:
-  * [Javascript](https://github.com/chaticker/Tech_Room/blob/main/Language/Javascript.md)   :round_pushpin:**[프로젝트 구경](https://github.com/chaticker/paint_js)**:eyes:
+  * [HTML, CSS](https://github.com/chaticker/Tech_Room/blob/main/Language/HTML%2CCSS.md)    :round_pushpin:###### **[프로젝트 구경](https://github.com/chaticker/Web_Portfolio)**:eyes:
+  * [Javascript](https://github.com/chaticker/Tech_Room/blob/main/Language/Javascript.md)   :round_pushpin:###### **[프로젝트 구경](https://github.com/chaticker/paint_js)**:eyes:
   * [SQL](https://github.com/chaticker/Tech_Room/tree/main/Language/SQL)
