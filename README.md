@@ -1,4 +1,4 @@
-## OS
+## :computer: OS
 * time_table
 
 |주차|강의 내용|스터디 날짜|
