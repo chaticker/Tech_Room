@@ -13,4 +13,7 @@
 |[7주차](https://github.com/chaticker/Tech_Room/tree/main/OS/7%EC%A3%BC%EC%B0%A8)|26, 27, 28, 마무리|2020/12/19|
 
 
+
 ## :floppy_disk: Database
+
+* [SQL 기본 문법 정리](https://github.com/chaticker/Tech_Room/tree/main/DB)
