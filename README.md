@@ -17,3 +17,16 @@
 ## :floppy_disk: Database
 
 * [SQL 기본 문법 정리](https://github.com/chaticker/Tech_Room/blob/main/DB/SQL%20%EA%B8%B0%EB%B3%B8%20%EB%AC%B8%EB%B2%95%20%EC%A0%95%EB%A6%AC.md)
+
+
+
+## :floppy_disk: Network
+
+
+
+
+## :floppy_disk: Language
+  * [Python]()
+  * [Java]()
+  * [HTML, CSS]()
+  * [Javascript]()
