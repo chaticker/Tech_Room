@@ -1,3 +1,6 @@
+![KakaoTalk_20201222_220607521](https://user-images.githubusercontent.com/23302973/102891714-0b4e3e80-44a2-11eb-8f20-bf4e2cf0b961.jpg)
+
+
 ## :computer: OperatingSystem
 * time_table
 
