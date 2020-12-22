@@ -10,16 +10,16 @@
 |한 주 쉼|--------------|2020/11/28|
 |[5주차](https://github.com/chaticker/Tech_Room/tree/main/OS/5%EC%A3%BC%EC%B0%A8)|18, 19, 20, 21|2020/12/05|
 |[6주차](https://github.com/chaticker/Tech_Room/tree/main/OS/6%EC%A3%BC%EC%B0%A8)|22, 23, 24, 25|2020/12/12|
-|[7주차](https://github.com/chaticker/Tech_Room/tree/main/OS/7%EC%A3%BC%EC%B0%A8)|26, 27, 28, 마무리|2020/12/19|
+|[7주차](https://github.com/chaticker/Tech_Room/tree/main/OS/7%EC%A3%BC%EC%B0%A8)|26, 27, 28, 마무리|2020/12/19|  
 
 
 
-## :floppy_disk: Database
+## :floppy_disk: Database  
 
 
 
 
-## :mailbox_closed: Network
+## :mailbox_closed: Network  
 
 
 
