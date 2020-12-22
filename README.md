@@ -33,6 +33,6 @@
 ## :key: Language
   * [Python](https://github.com/chaticker/Tech_Room/blob/main/Language/Python.md)
   * [Java](https://github.com/chaticker/Tech_Room/tree/main/Language/Java)
-  * [HTML, CSS](https://github.com/chaticker/Tech_Room/blob/main/Language/HTML%2CCSS.md)  **[플젝보기]()**
-  * [Javascript](https://github.com/chaticker/Tech_Room/blob/main/Language/Javascript.md) **[플젝보기]()**
+  * [HTML, CSS](https://github.com/chaticker/Tech_Room/blob/main/Language/HTML%2CCSS.md)  __**[프로젝트 구경]()**
+  * [Javascript](https://github.com/chaticker/Tech_Room/blob/main/Language/Javascript.md) __**[프로젝트 구경]()**
   * [SQL](https://github.com/chaticker/Tech_Room/tree/main/Language/SQL)
