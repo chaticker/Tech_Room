@@ -26,8 +26,8 @@
 
 
 ## :key: Language
-  * [Python]()
-  * [Java]()
-  * [HTML, CSS]()
-  * [Javascript]()
-  * [SQL]()
+  * [Python](https://github.com/chaticker/Tech_Room/blob/main/Language/Python.md)
+  * [Java](https://github.com/chaticker/Tech_Room/blob/main/Language/Java.md)
+  * [HTML, CSS](https://github.com/chaticker/Tech_Room/blob/main/Language/HTML%2CCSS.md)
+  * [Javascript](https://github.com/chaticker/Tech_Room/blob/main/Language/Javascript.md)
+  * [SQL](https://github.com/chaticker/Tech_Room/blob/main/Language/SQL.md)
