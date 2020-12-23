@@ -15,7 +15,7 @@
 |[6주차](https://github.com/chaticker/Tech_Room/tree/main/OS/6%EC%A3%BC%EC%B0%A8)|22, 23, 24, 25|2020/12/12|
 |[7주차](https://github.com/chaticker/Tech_Room/tree/main/OS/7%EC%A3%BC%EC%B0%A8)|26, 27, 28, 마무리|2020/12/19|  
 
-
+[각 주차 문제 풀기](https://www.notion.so/OS-b6fa540d38514b90b8b854ecf856f625)
 
 ## :floppy_disk: Database  
  * [SQL vs NOSQL](https://github.com/chaticker/Tech_Room/blob/main/DB/SQL%20vs%20NoSQL.md)
