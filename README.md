@@ -18,7 +18,7 @@
 
 
 ## :floppy_disk: Database  
-
+ * [SQL vs NOSQL](https://github.com/chaticker/Tech_Room/blob/main/DB/SQL%20vs%20NoSQL.md)
 
 
 
