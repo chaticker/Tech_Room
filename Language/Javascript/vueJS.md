@@ -112,6 +112,7 @@
 </html>
 ```
 * console창에서의 키보드 이벤트 변화
+
 ![dfasdf](https://user-images.githubusercontent.com/23302973/103435826-a2ac5200-4c57-11eb-906e-9f762e3cfd60.PNG)
 
 * target 내부의 value 값의 변화를 가지고 함수를 작성
