@@ -210,3 +210,63 @@ updateText(event){
 </body>
 </html>
 ```
+
+### v-if와 v-show
+```vue
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뷰 기초 익히기</title>
+    <style>
+        .red{
+            color: red;
+        }
+        .font-bold{
+            font-weight: bold;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!--한번에 보여주기-->
+        <!-- <template v-if='number === 1'>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </template>
+        <div v-else-if="number === 2">hi</div>
+        <div v-else>no</div> -->
+
+        <!--v-if와 v-show의 차이점: if는 조건이 부적합이면 아예 렌더링 안하지만, show는 렌더링은 하되, 스타일로써 안보이게 함-->
+
+        <div v-show="show">yes</div>
+        <button @click="toggle">toggle</button>
+    </div>
+    <script>
+        new Vue({
+            el: '#app',
+            data:{
+                number: 1,
+                show: false
+            },
+            methods:{
+                increaseNumber(){
+                    this.number++;
+                },
+                toggle(){
+                    this.show = !this.show
+                }
+            }
+        })
+    </script>
+</body>
+</html>
+```
+
+### v-for 리스트 렌더링
+```vue
+
+```
