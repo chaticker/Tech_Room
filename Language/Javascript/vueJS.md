@@ -72,5 +72,52 @@
     </script>
 </body>
 </html>
-
 ```
+
+* 데이터 양방향 바인딩 실습
+```vue
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뷰 기초 익히기</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <form v-on:submit = "submit">
+            <input type="text" v-model="text"><br> <!--양방향 바인딩이 필요할 땐 v-model씀-->>
+            {{ text }}<br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script>
+        new Vue({
+            el: '#app',
+            data:{
+                text: 'text'
+            },
+            methods:{
+                submit(){
+                    alert('submitted');
+                },
+                // updateText(event){
+                //     this.text = event.target.value;
+                // }
+            }
+        })
+    </script>
+</body>
+</html>
+```
+* console창에서의 키보드 이벤트 변화
+![dfasdf](https://user-images.githubusercontent.com/23302973/103435826-a2ac5200-4c57-11eb-906e-9f762e3cfd60.PNG)
+
+* target 내부의 value 값의 변화를 가지고 함수를 작성
+```vue
+updateText(event){
+    console.log(event);
+    this.text = event.target.value;
+```
+![캡처](https://user-images.githubusercontent.com/23302973/103435861-32520080-4c58-11eb-92ab-382137a9d7a0.PNG)
