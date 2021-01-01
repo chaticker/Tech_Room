@@ -166,3 +166,47 @@ updateText(event){
 </body>
 </html>
 ```
+
+### 클래스 & 스타일 바인딩
+```vue
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뷰 기초 익히기</title>
+    <style>
+        .red{
+            color: red;
+        }
+        .font-bold{
+            font-weight: bold;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!--font-bold 같은 경우 ''안에 넣어줘야 함-->
+        <div :style="{ color: red, fontSize: size}">Hello</div>
+        <button @click="update">Click</button>
+    </div>
+    <script>
+        new Vue({
+            el: '#app',
+            data:{
+                red: 'red', /*false일 경우에는 class에 안들어감*/
+                size: '30px'
+
+            },
+            methods:{
+                update(){
+                    this.isRed = !this.isRed;
+                    this.isBold = !this.isBold;
+                }
+            }
+        })
+    </script>
+</body>
+</html>
+```
