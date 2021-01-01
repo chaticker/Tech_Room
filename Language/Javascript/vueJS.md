@@ -124,3 +124,45 @@ updateText(event){
     this.text = event.target.value;
 ```
 ![캡처](https://user-images.githubusercontent.com/23302973/103435861-32520080-4c58-11eb-92ab-382137a9d7a0.PNG)
+
+- - -
+### computed 속성
+```vue
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뷰 기초 익히기</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <button @click="changeMessage">Click</button>
+        {{ reversedMessage }}
+        {{ reversedMessage }}
+        {{ reversedMessage }}
+    </div>
+    <script>
+        new Vue({
+            el: '#app',
+            data:{
+                message: '안녕하세요'
+            },
+            methods:{
+                changeMessage(){
+                    this.message = '차티커'; /*버튼 클릭 후 데이터가 바뀜*/
+                }
+            },
+            computed:{ /*중복 속성을 관리할 수 있음 -> 괄호 없이 함수 사용 가능*/
+                reversedMessage(){
+                    return this.message.split('').reverse().join('')
+                }
+            }
+        })
+        /*methods와 computed의 차이점: computed는 캐싱을 함 -> 
+        처음 한 번만 계산하고, 값이 저장이 되어 있어서 함수를 반복적으로 사용할 수 있음*/
+    </script>
+</body>
+</html>
+```
