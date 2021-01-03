@@ -318,3 +318,53 @@ updateText(event){
 </body>
 </html>
 ```
+
+### 여러개의 뷰 인스턴스 사용하기
+```vue
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뷰 기초 익히기</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        {{ name }}<br>
+        <button @click="changeText">Click</button>
+    </div>
+
+    <div id="app-1">
+        {{ name }}<br>
+        <button @click="changeText">Click</button>
+    </div>
+    <script>
+        /*다른 인스턴스에서 변경하고 싶을 때 -> 변수에 담아서 사용*/
+        const app = new Vue({
+            el: '#app',
+            data:{
+               name: 'cha'
+            },
+            methods:{
+                changeText(){
+                    app1.name = 'chaticker updated';
+                }
+            },
+        })
+
+        const app1 = new Vue({
+            el: '#app-1',
+            data:{
+                name: 'cha'
+            },
+            methods:{
+                changeText(){
+                    app.name = 'chaticker updated1';
+                }
+            },
+        })
+    </script>
+</body>
+</html>
+```
