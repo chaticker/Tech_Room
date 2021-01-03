@@ -490,3 +490,6 @@ updateText(event){
 </body>
 </html>
 ```
+
+### 싱글 파일 컴포넌트
+[노션 ](https://www.notion.so/Single-File-Component-66bdd89ad6a64c15b7026764d251b0a5)
