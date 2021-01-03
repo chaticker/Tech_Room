@@ -368,3 +368,125 @@ updateText(event){
 </body>
 </html>
 ```
+
+### 뷰 컴포넌트
+```vue
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뷰 기초 익히기</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- {{ name }}<br>
+        <button @click="changeText">Click</button>
+
+        <hr> -->
+
+        <cha-button></cha-button> <!--컴포넌트를 이용한 코드-->
+    </div>
+    <hr><hr>
+    <div id="app-1">
+        <!-- {{ name }}<br>
+        <button @click="changeText">Click</button>
+
+        <hr> -->
+
+        <cha-button></cha-button>
+    </div>
+
+    <script>
+        /*컴포넌트 내부에서 다른 컴포넌트 사용하기*/
+        Vue.component('hello-world', {
+            template: '<div>Hello World</div>'
+        })
+        /*인스턴스의 중복을 제거하기 위해 사용하는 것이 컴포넌트 -> 만들어 놓으면 아무데나 사용 가능*/
+        /*컴포넌트의 전역 등록*/
+        Vue.component('cha-button', {
+            /*템플릿 내에서는 하나의 태그 안에 코드가 존재 해야함*/
+            template: ` 
+            <div>
+                {{ name }}<br>
+                <hello-world></hello-world> 
+                <button @click="changeText">Click</button>
+            </div>    
+            `
+            ,
+            /*컴포넌트에서 데이터는 함수 형태로 만들어서 리턴해야 함*/
+            data() {
+                return {
+                    name: 'cha'
+                }
+            },
+            methods:{
+                changeText(){
+                    this.name = 'chaticker updated';
+                }
+            },
+        })
+        
+        const helloWorld = {
+            template: '<div>Hello World</div>'
+        };
+
+        /*컴포넌트의 지역 등록*/
+        const chaButton = {
+            components: {
+                'hello-world': helloWorld
+            },
+            template: ` 
+            <div>
+                {{ name }}<br>
+                <hello-world></hello-world> 
+                <button @click="changeText">Click</button>
+            </div>    
+            `
+            ,
+            data() {
+                return {
+                    name: 'cha'
+                }
+            },
+            methods:{
+                changeText(){
+                    this.name = 'chaticker updated';
+                }
+            },
+        };
+        
+        const app = new Vue({
+            el: '#app',
+            components:{
+                'cha-button': chaButton
+            }
+            // data:{
+            //    name: 'cha'
+            // },
+            // methods:{
+            //     changeText(){
+            //         this.name = 'chaticker updated';
+            //     }
+            // },
+        })
+
+        const app1 = new Vue({
+            el: '#app-1',
+            components:{
+                'cha-button': chaButton
+            }
+            // data:{
+            //     name: 'cha'
+            // },
+            // methods:{
+            //     changeText(){
+            //         this.name = 'chaticker updated';
+            //     }
+            // },
+        })
+    </script>
+</body>
+</html>
+```
