@@ -268,5 +268,53 @@ updateText(event){
 
 ### v-for 리스트 렌더링
 ```vue
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뷰 기초 익히기</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div>
+            {{ people[0].name }} {{people[0].age }}
+        </div>
+        <div>
+            {{ people[1].name }} {{people[1].age }}
+        </div>
+        <div>
+            {{ people[2].name }} {{people[2].age }}
+        </div>
 
+        <hr>
+
+        <!--* key는 반드시 필요한 속성인데, 만일 중복이 있다면 전체를 '-'을 사용해 모두 입력
+            * index를 따로 지정해서 key로 사용하는 것은 좋지 않은 방법 -> 왜? 중간에 값이 빠지면 인덱스 순서가 애매해지기 때문
+            * 그래서 id값을 사용하는 것이 좋음 -> {id:3 , name: 'c', age: 23 }-->
+        <div v-for="(person, index) in people" :key="person.name + '-'+ person.age"> <!--in 대신에 of를 써도 됨-->
+            {{ person.name }} {{person.age }} {{ index }}
+        </div>
+    </div>
+    <script>
+        new Vue({
+            el: '#app',
+            data:{
+               people: [
+                   { name: 'a', age: 20 },
+                   { name: 'b', age: 21 },
+                   { name: 'c', age: 22 },
+                   { name: 'c', age: 23 },
+                ]
+            },
+            methods:{
+                modal(){
+
+                }
+            },
+        })
+    </script>
+</body>
+</html>
 ```
