@@ -492,8 +492,7 @@ updateText(event){
 ```
 
 ### 싱글 파일 컴포넌트
-[노션 ](https://www.notion.so/Single-File-Component-66bdd89ad6a64c15b7026764d251b0a5)
+[노션](https://www.notion.so/Single-File-Component-66bdd89ad6a64c15b7026764d251b0a5)
 
 ### 자식 컴포넌트에 데이터 보내기
-
-
+[노션](https://www.notion.so/Props-66729172ce2d42f1aaea130c9799a04b)
