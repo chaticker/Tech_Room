@@ -497,5 +497,5 @@ updateText(event){
 ### 자식 컴포넌트에 데이터 보내기 (props)
 [노션](https://www.notion.so/Props-66729172ce2d42f1aaea130c9799a04b)
 
-## 부모 컴포넌트로 데이터 보내기 (Emit)
+### 부모 컴포넌트로 데이터 보내기 (Emit)
 [노션](https://www.notion.so/Emit-4da2d4bfa601475e8baacb6d928525bc)
