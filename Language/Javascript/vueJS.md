@@ -494,5 +494,8 @@ updateText(event){
 ### 싱글 파일 컴포넌트
 [노션](https://www.notion.so/Single-File-Component-66bdd89ad6a64c15b7026764d251b0a5)
 
-### 자식 컴포넌트에 데이터 보내기
+### 자식 컴포넌트에 데이터 보내기 (props)
 [노션](https://www.notion.so/Props-66729172ce2d42f1aaea130c9799a04b)
+
+## 부모 컴포넌트로 데이터 보내기 (Emit)
+[노션](https://www.notion.so/Emit-4da2d4bfa601475e8baacb6d928525bc)
