@@ -40,4 +40,4 @@
   * [SQL](https://github.com/chaticker/Tech_Room/tree/main/Language/SQL)
   
 
-#### :bulb: [회사 사전 교육]()
+#### :bulb: [회사 사전 교육](https://github.com/chaticker/Tech_Room/blob/main/%ED%9A%8C%EC%82%AC%20%EC%82%AC%EC%A0%84%EA%B5%90%EC%9C%A1%20%EA%B3%BC%EC%A0%95.md)
