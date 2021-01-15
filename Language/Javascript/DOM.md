@@ -70,7 +70,131 @@ DOM에서 모든 요소, 어트리뷰트, 텍스트는 하나의 객체이며 Do
 
 DOM tree의 객체 구성
 
-### DOM Query
+# DOM Query
+1. 하나의 요소 노드 선택
 
+![image](https://user-images.githubusercontent.com/23302973/104737861-27cf5500-5788-11eb-857d-149e2f014e4d.png)
 
+* document.getElementById(id)
+  - id 어트리뷰트 값으로 요소 노드를 한 개 선택한다. 복수개가 선택된 경우, 첫번째 요소만 반환한다.
+  - Return: HTMLElement를 상속받은 객체
+  - 모든 브라우저에서 동작
 
+```javascript
+// id로 하나의 요소를 선택한다.
+const elem = document.getElementById('one');
+// 클래스 어트리뷰트의 값을 변경한다.
+elem.className = 'blue';
+
+// 그림: DOM tree의 객체 구성 참고
+console.log(elem); // <li id="one" class="blue">Seoul</li>
+console.log(elem.__proto__);           // HTMLLIElement
+console.log(elem.__proto__.__proto__); // HTMLElement
+console.log(elem.__proto__.__proto__.__proto__);           // Element
+console.log(elem.__proto__.__proto__.__proto__.__proto__); // Node
+```
+
+* document.querySelector(cssSelector)
+  - CSS 셀렉터를 사용하여 요소 노드를 한 개 선택한다. 복수개가 선택된 경우, 첫번째 요소만 반환한다.
+  - Return: HTMLElement를 상속받은 객체
+  - IE8 이상의 브라우저에서 동작
+
+```javascript
+// CSS 셀렉터를 이용해 요소를 선택한다
+const elem = document.querySelector('li.red');
+// 클래스 어트리뷰트의 값을 변경한다.
+elem.className = 'blue';
+```
+
+1. 여러개의 요소 노드 선택
+
+![image](https://user-images.githubusercontent.com/23302973/104738153-7da3fd00-5788-11eb-960b-27cdd9ad2071.png)
+
+* document.getElementsByClassName(class)
+  - class 어트리뷰트 값으로 요소 노드를 모두 선택한다. 공백으로 구분하여 여러 개의 class를 지정할 수 있다.
+  - Return: HTMLCollection (live)
+  - IE9 이상의 브라우저에서 동작
+  
+```javascript
+// HTMLCollection을 반환한다. HTMLCollection은 live하다.
+const elems = document.getElementsByClassName('red');
+
+for (let i = 0; i < elems.length; i++) {
+  // 클래스 어트리뷰트의 값을 변경한다.
+  elems[i].className = 'blue';
+}
+```
+->이 코드 실행시키면 두 번째 요소만 변경이 안됨
+
+->getElementsByClassName 메소드의 반환값은 HTMLCollection인데, 얘는 반환 값이 복수인 경우 배열과 비슷한 사용법을 가진 **'유사배열'** 임 또한 HTMLCollection은 실시간으로 Node의 상태 변경을 반영함 
+
+->그렇담 왜 예상대로 동작이 안될까?
+
+->이유: elems.length는 3이므로 3번의 loop가 실행
+
+  1. i가 0일때, elems의 첫 요소(li#one.red)의 class 어트리뷰트의 값이 className 프로퍼티에 의해 red에서 blue로 변경된다. 이때 elems는 실시간으로 Node의 상태 변경을 반영하는 HTMLCollection 객체이다. elems의 첫 요소는 li#one.red에서 li#one.blue로 변경되었으므로 getElementsByClassName 메소드의 인자로 지정한 선택 조건(‘red’)과 더이상 부합하지 않게 되어 반환값에서 실시간으로 제거된다.
+
+2. i가 1일때, elems에서 첫째 요소는 제거되었으므로 elems[1]은 3번째 요소(li#three.red)가 된다. li#three.red의 class 어트리뷰트 값이 blue로 변경되고 마찬가지로 HTMLCollection에서 제외된다.
+
+3. i가 2일때, HTMLCollection의 1,3번째 요소가 실시간으로 제거되었으므로 2번째 요소(li#two.red)만 남았다. 이때 elems.length는 1이므로 for 문의 조건식 i < elems.length가 false로 평가되어 반복을 종료한다. 따라서 elems에 남아 있는 2번째 li 요소(li#two.red)의 class 값은 변경되지 않는다.
+
+->해결법1:반복문을 역방향으로 돌림
+```javascript
+const elems = document.getElementsByClassName('red');
+
+for (let i = elems.length - 1; i >= 0; i--) {
+  elems[i].className = 'blue';
+}
+```
+
+->해결법2:while 반복문을 사용. 이때 elems에 요소가 남아 있지 않을 때까지 무한반복하기 위해 index는 0으로 고정
+```javascript
+const elems = document.getElementsByClassName('red');
+
+let i = 0;
+while (elems.length > i) { // elems에 요소가 남아 있지 않을 때까지 무한반복
+  elems[i].className = 'blue';
+  // i++;
+}
+```
+
+->해결법3:HTMLCollection을 배열로 변경한다. 이 방법을 권장
+```javascript
+const elems = document.getElementsByClassName('red');
+
+// 유사 배열 객체인 HTMLCollection을 배열로 변환한다.
+// 배열로 변환된 HTMLCollection은 더 이상 live하지 않다.
+console.log([...elems]); // [li#one.red, li#two.red, li#three.red]
+
+[...elems].forEach(elem => elem.className = 'blue');
+```
+
+->해결법4:querySelectorAll 메소드를 사용하여 HTMLCollection(live)이 아닌 NodeList(non-live)를 반환하게 한다.
+```javascript
+// querySelectorAll는 Nodelist(non-live)를 반환한다. IE8+
+const elems = document.querySelectorAll('.red');
+
+[...elems].forEach(elem => elem.className = 'blue');
+```
+
+* document.getElementsByTagName(tagName)
+  - 태그명으로 요소 노드를 모두 선택한다.
+  - Return: HTMLCollection (live)
+  - 모든 브라우저에서 동작
+```javascript
+// HTMLCollection을 반환한다.
+const elems = document.getElementsByTagName('li');
+
+[...elems].forEach(elem => elem.className = 'blue');
+```
+
+* document.querySelectorAll(selector)
+  - 지정된 CSS 선택자를 사용하여 요소 노드를 모두 선택한다.
+  - Return: NodeList (non-live)
+  - IE8 이상의 브라우저에서 동작
+```javascript
+// Nodelist를 반환한다.
+const elems = document.querySelectorAll('li.red');
+
+[...elems].forEach(elem => elem.className = 'blue');
+```
