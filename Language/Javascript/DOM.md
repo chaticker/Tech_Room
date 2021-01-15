@@ -69,3 +69,8 @@ DOM에서 모든 요소, 어트리뷰트, 텍스트는 하나의 객체이며 Do
 ![image](https://user-images.githubusercontent.com/23302973/104024993-52109800-5207-11eb-937e-6e992ae94366.png)
 
 DOM tree의 객체 구성
+
+### DOM Query
+
+
+
