@@ -198,3 +198,99 @@ const elems = document.querySelectorAll('li.red');
 
 [...elems].forEach(elem => elem.className = 'blue');
 ```
+
+# DOM Traversing(탐색)
+
+![image](https://user-images.githubusercontent.com/23302973/104814803-105d9e00-5854-11eb-941c-209c66e7c706.png)
+
+* parentNode
+  - 부모 노드를 탐색한다.
+  - Return: HTMLElement를 상속받은 객체
+  - 모든 브라우저에서 동작
+```javascript
+const elem = document.querySelector('#two');
+
+elem.parentNode.className = 'blue';
+```
+
+* firstChild, lastChild
+  - 자식 노드를 탐색한다.
+  - Return: HTMLElement를 상속받은 객체
+  - IE9 이상의 브라우저에서 동작
+```javascript
+const elem = document.querySelector('ul');
+
+// first Child
+elem.firstChild.className = 'blue';
+// last Child
+elem.lastChild.className = 'blue';
+```
+-> 해당 예제는 예상대로 동작하지 않음
+-> 왜?? IE를 제외한 대부분의 브라우저들은 요소 사이의 공백 또는 줄바꿈 문자를 텍스트 노드로 취급하기 때문
+-> 따라서 이를 회피하기 위해서는 아래와 같이 HTML의공백의 제거하거나  jQuery: .prev()와 jQuery: .next()를 사용
+
+```javascript
+<ul><li
+  id='one' class='red'>Seoul</li><li
+  id='two' class='red'>London</li><li
+  id='three' class='red'>Newyork</li><li
+  id='four'>Tokyo</li></ul>
+```
+
+->또는 firstElementChild, lastElementChild를 사용
+
+```javascript
+const elem = document.querySelector('ul');
+
+// first Child
+elem.firstElementChild.className = 'blue';
+// last Child
+elem.lastElementChild.className = 'blue';
+```
+
+* hasChildNodes()
+  - 자식 노드가 있는지 확인하고 Boolean 값을 반환한다.
+  - Return: Boolean 값
+  - 모든 브라우저에서 동작
+
+* childNodes
+  - 자식 노드의 컬렉션을 반환한다. 텍스트 요소를 포함한 모든 자식 요소를 반환한다.
+  - Return: NodeList (non-live)
+  - 모든 브라우저에서 동작
+
+* children
+  - 자식 노드의 컬렉션을 반환한다. 자식 요소 중에서 Element type 요소만을 반환한다.
+  - Return: HTMLCollection (live)
+  - IE9 이상의 브라우저에서 동작
+  
+```javascript
+const elem = document.querySelector('ul');
+
+if (elem.hasChildNodes()) {
+  console.log(elem.childNodes);
+  // 텍스트 요소를 포함한 모든 자식 요소를 반환한다.
+  // NodeList(9) [text, li#one.red, text, li#two.red, text, li#three.red, text, li#four, text]
+
+  console.log(elem.children);
+  // 자식 요소 중에서 Element type 요소만을 반환한다.
+  // HTMLCollection(4) [li#one.red, li#two.red, li#three.red, li#four, one: li#one.red, two: li#two.red, three: li#three.red, four: li#four]
+  [...elem.children].forEach(el => console.log(el.nodeType)); // 1 (=> Element node)
+}
+```
+
+* previousSibling, nextSibling
+  - 형제 노드를 탐색한다. text node를 포함한 모든 형제 노드를 탐색한다.
+  - Return: HTMLElement를 상속받은 객체
+  - 모든 브라우저에서 동작
+
+* previousElementSibling, nextElementSibling
+  - 형제 노드를 탐색한다. 형제 노드 중에서 Element type 요소만을 탐색한다.
+  - Return: HTMLElement를 상속받은 객체
+  - IE9 이상의 브라우저에서 동작
+  
+```javascript
+const elem = document.querySelector('ul');
+
+elem.firstElementChild.nextElementSibling.className = 'blue';
+elem.firstElementChild.nextElementSibling.previousElementSibling.className = 'blue';
+```
