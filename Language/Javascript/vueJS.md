@@ -499,3 +499,9 @@ updateText(event){
 
 ### 부모 컴포넌트로 데이터 보내기 (Emit)
 [노션](https://www.notion.so/Emit-4da2d4bfa601475e8baacb6d928525bc)
+
+### 슬롯(slot)
+[노션](https://www.notion.so/slot-5948e5e9fa1c4f3f8c9a3baac914ad25)
+
+### 뷰 인스턴스 라이프사이클
+[노션](https://www.notion.so/8a07cb2c77f44c3f9e02e4713150c4f2)
