@@ -1,4 +1,4 @@
-### fain-in
+### faid-in
 
 ```html
 <div class="fade-in-box">
@@ -50,7 +50,7 @@
 }
 ```
 
-### fain-out
+### faid-out
 
 ```css
 .fade-in-box {
