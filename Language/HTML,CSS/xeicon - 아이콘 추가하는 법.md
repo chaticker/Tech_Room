@@ -13,9 +13,7 @@
     <i class="xi-xpressengine"> xpressengine </i>
   ```
   
-* 아이콘 크기 변경
-https://1.bp.blogspot.com/-d5qducxPBW4/WYGhsuxkYLI/AAAAAAAAFqg/TT2Ps1ky5lkWDPJ4esJ-7q7bcpTPN6X6wCLcBGAs/s1600/img_3.png
-  
+* 아이콘 크기 변경  
   ```html
     <i class="xi-face xi-x"></i>
     <i class="xi-face xi-2x"></i> 
