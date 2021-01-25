@@ -8,9 +8,11 @@
 ### 사용법
 * 기본 적용
   - <i>태그에 class명으로 아이콘의 종류를 선택
+ 
   ```html
     <i class="xi-xpressengine"> xpressengine </i>
   ```
+  
 * 아이콘 크기 변경
 https://1.bp.blogspot.com/-d5qducxPBW4/WYGhsuxkYLI/AAAAAAAAFqg/TT2Ps1ky5lkWDPJ4esJ-7q7bcpTPN6X6wCLcBGAs/s1600/img_3.png
   
