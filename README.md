@@ -34,7 +34,7 @@
 
 ## :key: Language
   * [Python](https://github.com/chaticker/Tech_Room/blob/main/Language/Python.md)
-  * [Java](https://github.com/chaticker/Tech_Room/tree/main/Language/Java)
+  * [Java](https://github.com/chaticker/Tech_Room/tree/main/Language/Java) **[프로젝트 구경1](https://github.com/chaticker/2nd_Project)**:eyes:
   * [HTML, CSS](https://github.com/chaticker/Tech_Room/tree/main/Language/HTML%2CCSS)
   :round_pushpin: **[프로젝트 구경1](https://github.com/chaticker/Web_Portfolio)**:eyes:
   :round_pushpin: **[프로젝트 구경2](https://github.com/chaticker/First_Project)**:eyes:
