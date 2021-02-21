@@ -33,6 +33,7 @@
  * [REST API]()
  * [HTTP Method]()
  * [SPA / Virtual DOM](https://github.com/chaticker/Tech_Room/blob/main/Web/SPA%20~%20Virtual%20DOM.md)
+ * [AJAX](https://www.notion.so/AJAX-b16a9819d6764e63906992e79f469956)
 
 
 ## :key: Language
