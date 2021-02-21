@@ -37,7 +37,7 @@
 
 
 ## :key: Language
-  * [Python](https://github.com/chaticker/Algorithm) -> 알고리즘
+  * [Python](https://github.com/chaticker/Algorithm)
   * [Java](https://github.com/chaticker/Tech_Room/tree/main/Language/Java) :round_pushpin: **[프로젝트 구경1](https://github.com/chaticker/2nd_Project)**:eyes:
   * [HTML, CSS](https://github.com/chaticker/Tech_Room/tree/main/Language/HTML%2CCSS)
   :round_pushpin: **[프로젝트 구경1](https://github.com/chaticker/Web_Portfolio)**:eyes:
