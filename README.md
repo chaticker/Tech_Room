@@ -32,7 +32,7 @@
  * [쿠키 º 세션 º 캐시](https://github.com/chaticker/Tech_Room/blob/main/Web/%EC%BF%A0%ED%82%A4%20%C2%BA%20%EC%84%B8%EC%85%98%20%C2%BA%20%EC%BA%90%EC%8B%9C.md)
  * [REST API]()
  * [HTTP Method]()
- * [SPA / Virtual DOM](https://github.com/chaticker/Tech_Room/blob/main/Web/SPA%20~%20Virtual%20DOM.md)
+ * [SPA / Virtual DOM](https://www.notion.so/SPA-Vue-e5570c996eb84a6fb9920c12f9a6f752)
  * [AJAX](https://www.notion.so/AJAX-b16a9819d6764e63906992e79f469956)
 
 
