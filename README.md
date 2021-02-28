@@ -38,12 +38,11 @@
 
 ## :key: Language
   * [Python(알고리즘 공부)](https://github.com/chaticker/Algorithm)
-  * [Java](https://github.com/chaticker/Tech_Room/tree/main/Language/Java) :round_pushpin: **[프로젝트 구경1](https://github.com/chaticker/2nd_Project)**:eyes:
+  * [Java](https://github.com/chaticker/Tech_Room/tree/main/Language/Java) :round_pushpin: **[프로젝트 구경](https://github.com/chaticker/2nd_Project)**:eyes:
   * [HTML, CSS](https://github.com/chaticker/Tech_Room/tree/main/Language/HTML%2CCSS)
   :round_pushpin: **[프로젝트 구경1](https://github.com/chaticker/Web_Portfolio)**:eyes:
   :round_pushpin: **[프로젝트 구경2](https://github.com/chaticker/First_Project)**:eyes:
-  * [Javascript](https://github.com/chaticker/Tech_Room/tree/main/Language/Javascript):round_pushpin: **[프로젝트 구경1](https://github.com/chaticker/paint_js)**:eyes:
- :round_pushpin: **[프로젝트 구경2](https://github.com/chaticker/vf2)**:eyes:
+  * [Javascript](https://github.com/chaticker/Tech_Room/tree/main/Language/Javascript):round_pushpin: **[프로젝트 구경](https://github.com/chaticker/vf2)**:eyes:
   * [SQL](https://github.com/chaticker/Tech_Room/tree/main/Language/SQL)
   
 
