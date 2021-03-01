@@ -37,7 +37,6 @@
 
 
 ## :key: Language
-  * [Python(알고리즘 공부)](https://github.com/chaticker/Algorithm)
   * [Java](https://github.com/chaticker/Tech_Room/tree/main/Language/Java) :round_pushpin: **[프로젝트 구경](https://github.com/chaticker/2nd_Project)**:eyes:
   * [HTML, CSS](https://github.com/chaticker/Tech_Room/tree/main/Language/HTML%2CCSS)
   :round_pushpin: **[프로젝트 구경1](https://github.com/chaticker/Web_Portfolio)**:eyes:
@@ -46,4 +45,4 @@
   * [SQL](https://github.com/chaticker/Tech_Room/tree/main/Language/SQL)
   
 
-#### :bulb: [회사 사전 교육](https://github.com/chaticker/Tech_Room/blob/main/%ED%9A%8C%EC%82%AC%20%EC%82%AC%EC%A0%84%EA%B5%90%EC%9C%A1%20%EA%B3%BC%EC%A0%95.md)
+#### :bulb: [알고리즘 문제 풀이](https://www.notion.so/a04f87d26ae646f7b44a6d1828791dd3)
