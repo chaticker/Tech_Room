@@ -38,11 +38,9 @@
 
 
 ## :key: Language & Framework
-  * [Java](https://github.com/chaticker/Tech_Room/tree/main/Language/Java) :round_pushpin: **[프로젝트 구경](https://github.com/chaticker/2nd_Project)**:eyes:
+  * [Java](https://github.com/chaticker/Tech_Room/tree/main/Language/Java)
   * [HTML, CSS](https://github.com/chaticker/Tech_Room/tree/main/Language/HTML%2CCSS)
-  :round_pushpin: **[프로젝트 구경1](https://github.com/chaticker/Web_Portfolio)**:eyes:
-  :round_pushpin: **[프로젝트 구경2](https://github.com/chaticker/First_Project)**:eyes:
-  * [Javascript](https://github.com/chaticker/Tech_Room/tree/main/Language/Javascript):round_pushpin: **[프로젝트 구경](https://github.com/chaticker/vf2)**:eyes:
+  * [Javascript](https://github.com/chaticker/Tech_Room/tree/main/Language/Javascript)
     - [React](https://www.notion.so/React-c4e69a52cccb44aa944c6d37f857da21)
     - [Vue](https://www.notion.so/Vue-js-045e9afe4f1647e28005cae9b5f5ac95)
   * [SQL](https://github.com/chaticker/Tech_Room/tree/main/Language/SQL)
