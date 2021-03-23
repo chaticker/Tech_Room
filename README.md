@@ -35,6 +35,7 @@
  * [SPA / Virtual DOM](https://www.notion.so/SPA-Vue-e5570c996eb84a6fb9920c12f9a6f752)
  * [AJAX](https://www.notion.so/AJAX-b16a9819d6764e63906992e79f469956)
  * [Module Bundler - Webpack](https://www.notion.so/Module-Bundler-Webpack-80de94c6745b421d80cc6c5129304ee3)
+ * [Proxy](https://www.notion.so/Proxy-9abdf9cddafd486e9bc90df30b35cfdc)
 
 
 ## :key: Language & Framework
