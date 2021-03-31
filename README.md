@@ -46,6 +46,7 @@
     - [React](https://www.notion.so/React-c4e69a52cccb44aa944c6d37f857da21)
     - [Vue](https://www.notion.so/Vue-js-045e9afe4f1647e28005cae9b5f5ac95)
   * [SQL](https://github.com/chaticker/Tech_Room/tree/main/Language/SQL)
+  * [Python](https://www.notion.so/8f5bee78050f45cd85a37fdaf2979ad6)
   
 
 #### :bulb: [알고리즘 문제 풀이](https://www.notion.so/a04f87d26ae646f7b44a6d1828791dd3)
