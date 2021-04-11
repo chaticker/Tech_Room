@@ -42,7 +42,7 @@
   * [Java](https://github.com/chaticker/Tech_Room/tree/main/Language/Java)
   * [HTML, CSS](https://github.com/chaticker/Tech_Room/tree/main/Language/HTML%2CCSS)
   * [Javascript](https://github.com/chaticker/Tech_Room/tree/main/Language/Javascript)
-    - [TypeScript]()
+    - [TypeScript](https://www.notion.so/TypeScript-b7538da3126346418681fd99d81c3ff9)
     - [React](https://www.notion.so/React-c4e69a52cccb44aa944c6d37f857da21)
     - [Vue](https://www.notion.so/Vue-js-045e9afe4f1647e28005cae9b5f5ac95)
   * [SQL](https://github.com/chaticker/Tech_Room/tree/main/Language/SQL)
