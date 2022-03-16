@@ -40,3 +40,5 @@
 #### :bulb: [알고리즘 문제 풀이](https://github.com/youseonHwang/algorithm_study)
 
 #### :bulb: [면접 질문 리스트](https://github.com/chaticker/cs_interview)
+
+#### :bulb: [영어 지문 해석](https://chaticker.notion.site/674329cb0977469cb493636c88e05d38)
